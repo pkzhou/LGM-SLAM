@@ -19,14 +19,14 @@ You can use gray or color images to test the algorithm. The segmentation of the 
 ## Cite
 If you refer to this code in an academic work, please cite:
 
-@article{zhou2022visual,
-  title={Visual Localization and Mapping Leveraging the Constraints of Local Ground Manifolds},
-  author={Zhou, Pengkun and Liu, Yuzhen and Gu, Pengfei and Liu, Jiacheng and Meng, Ziyang},
-  journal={IEEE Robotics and Automation Letters},
-  volume={7},
-  number={2},
-  pages={4196--4203},
-  year={2022},
-  publisher={IEEE}
-}
+  @article{zhou2022visual,
+    title={Visual Localization and Mapping Leveraging the Constraints of Local Ground Manifolds},
+    author={Zhou, Pengkun and Liu, Yuzhen and Gu, Pengfei and Liu, Jiacheng and Meng, Ziyang},
+    journal={IEEE Robotics and Automation Letters},
+    volume={7},
+    number={2},
+    pages={4196--4203},
+    year={2022},
+    publisher={IEEE}
+  }
 
