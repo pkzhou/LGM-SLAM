@@ -1,5 +1,8 @@
 # LGM-SLAM
-An official implmentation of Visual Localization and Mapping Leveraging the Constraints of Local Ground Manifolds
+The open source code of [Visual Localization and Mapping Leveraging the Constraints of Local Ground Manifolds](https://ieeexplore.ieee.org/document/9699003). This work is published on IEEE Robotics and Automation Letters with ICRA2022 Oral Report.
+
+## Abstract
+In order to improve the accuracy of simultaneous localization and mapping problem, plane motion assumption is often used for advanced ground vehicle SLAM system. However, such an assumption is not always suitable to complex and changeable road scenes. In this letter, we propose a stereo-vision based SLAM framework that tightly couples the local ground manifold constraints into accurate camera trajectory estimation. Instead of considering a planar manifold assumption, we model the road as a sequence of local planes with different slopes named local ground manifolds (LGM). The impact region of the LGM is represented as a spherical area in the map, where the vehicle’s motion is constrained by the corresponding local plane model. ORB features and road segmentations are utilized to perform the environmental reconstruction and ground manifold representation. The structures of surroundings and the plane normal of LGMs are jointly optimized with the trajectory of the vehicle within a novel point-LGM tightly-coupled bundle adjustment framework. The experiments on KITTI datasets demonstrate that the proposed ground manifold representation can greatly benefit the camera trajectory estimation.
 
 ## Install
 This project is implmented based on ORB_SLAM2. All the DEPENDENCIES are the same as ORB_SLAM2's.
