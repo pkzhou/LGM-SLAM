@@ -4,6 +4,8 @@ The open source code of [Visual Localization and Mapping Leveraging the Constrai
 ## Abstract
 In order to improve the accuracy of simultaneous localization and mapping problem, plane motion assumption is often used for advanced ground vehicle SLAM system. However, such an assumption is not always suitable to complex and changeable road scenes. In this letter, we propose a stereo-vision based SLAM framework that tightly couples the local ground manifold constraints into accurate camera trajectory estimation. Instead of considering a planar manifold assumption, we model the road as a sequence of local planes with different slopes named local ground manifolds (LGM). The impact region of the LGM is represented as a spherical area in the map, where the vehicle’s motion is constrained by the corresponding local plane model. ORB features and road segmentations are utilized to perform the environmental reconstruction and ground manifold representation. The structures of surroundings and the plane normal of LGMs are jointly optimized with the trajectory of the vehicle within a novel point-LGM tightly-coupled bundle adjustment framework. The experiments on KITTI datasets demonstrate that the proposed ground manifold representation can greatly benefit the camera trajectory estimation.
 
+![image](https://user-images.githubusercontent.com/73513416/178487050-703f6778-6617-4790-bbf3-b7b5acee9010.png)
+
 ## Install
 This project is implmented based on ORB_SLAM2. All the DEPENDENCIES are the same as ORB_SLAM2's.
 
